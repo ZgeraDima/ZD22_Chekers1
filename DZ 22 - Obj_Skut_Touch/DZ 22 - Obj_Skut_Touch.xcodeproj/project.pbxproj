@@ -1,0 +1,315 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		041C391E1FC05E38000BAD02 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 041C391D1FC05E38000BAD02 /* Main.storyboard */; };
+		0429D8101FB77E4800E0307D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0429D80F1FB77E4800E0307D /* main.m */; };
+		0429D8131FB77E4800E0307D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0429D8121FB77E4800E0307D /* AppDelegate.m */; };
+		0429D8161FB77E4800E0307D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0429D8151FB77E4800E0307D /* ViewController.m */; };
+		0429D81B1FB77E4800E0307D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0429D81A1FB77E4800E0307D /* Assets.xcassets */; };
+		0429D81E1FB77E4800E0307D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0429D81C1FB77E4800E0307D /* LaunchScreen.storyboard */; };
+		0429D8271FB77EA400E0307D /* DZ 22 - Obj_Skut_Touch.c in Sources */ = {isa = PBXBuildFile; fileRef = 0429D8251FB77EA400E0307D /* DZ 22 - Obj_Skut_Touch.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		041C391D1FC05E38000BAD02 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		0429D80B1FB77E4800E0307D /* DZ 22 - Obj_Skut_Touch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DZ 22 - Obj_Skut_Touch.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0429D80F1FB77E4800E0307D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0429D8111FB77E4800E0307D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0429D8121FB77E4800E0307D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0429D8141FB77E4800E0307D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0429D8151FB77E4800E0307D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0429D81A1FB77E4800E0307D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0429D81D1FB77E4800E0307D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0429D81F1FB77E4800E0307D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0429D8251FB77EA400E0307D /* DZ 22 - Obj_Skut_Touch.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = "DZ 22 - Obj_Skut_Touch.c"; path = "DZ 22 - Obj_Skut_Touch/DZ 22 - Obj_Skut_Touch.c"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0429D8081FB77E4800E0307D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0429D8021FB77E4800E0307D = {
+			isa = PBXGroup;
+			children = (
+				0429D8251FB77EA400E0307D /* DZ 22 - Obj_Skut_Touch.c */,
+				0429D80D1FB77E4800E0307D /* DZ 22 - Obj_Skut_Touch */,
+				0429D80C1FB77E4800E0307D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0429D80C1FB77E4800E0307D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0429D80B1FB77E4800E0307D /* DZ 22 - Obj_Skut_Touch.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0429D80D1FB77E4800E0307D /* DZ 22 - Obj_Skut_Touch */ = {
+			isa = PBXGroup;
+			children = (
+				0429D8111FB77E4800E0307D /* AppDelegate.h */,
+				0429D8121FB77E4800E0307D /* AppDelegate.m */,
+				0429D8141FB77E4800E0307D /* ViewController.h */,
+				0429D8151FB77E4800E0307D /* ViewController.m */,
+				041C391D1FC05E38000BAD02 /* Main.storyboard */,
+				0429D81A1FB77E4800E0307D /* Assets.xcassets */,
+				0429D81C1FB77E4800E0307D /* LaunchScreen.storyboard */,
+				0429D81F1FB77E4800E0307D /* Info.plist */,
+				0429D80E1FB77E4800E0307D /* Supporting Files */,
+			);
+			path = "DZ 22 - Obj_Skut_Touch";
+			sourceTree = "<group>";
+		};
+		0429D80E1FB77E4800E0307D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0429D80F1FB77E4800E0307D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0429D80A1FB77E4800E0307D /* DZ 22 - Obj_Skut_Touch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0429D8221FB77E4800E0307D /* Build configuration list for PBXNativeTarget "DZ 22 - Obj_Skut_Touch" */;
+			buildPhases = (
+				0429D8071FB77E4800E0307D /* Sources */,
+				0429D8081FB77E4800E0307D /* Frameworks */,
+				0429D8091FB77E4800E0307D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DZ 22 - Obj_Skut_Touch";
+			productName = "DZ 22 - Obj_Skut_Touch";
+			productReference = 0429D80B1FB77E4800E0307D /* DZ 22 - Obj_Skut_Touch.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0429D8031FB77E4800E0307D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Dima Zgera";
+				TargetAttributes = {
+					0429D80A1FB77E4800E0307D = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 0429D8061FB77E4800E0307D /* Build configuration list for PBXProject "DZ 22 - Obj_Skut_Touch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0429D8021FB77E4800E0307D;
+			productRefGroup = 0429D80C1FB77E4800E0307D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0429D80A1FB77E4800E0307D /* DZ 22 - Obj_Skut_Touch */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0429D8091FB77E4800E0307D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0429D81E1FB77E4800E0307D /* LaunchScreen.storyboard in Resources */,
+				0429D81B1FB77E4800E0307D /* Assets.xcassets in Resources */,
+				041C391E1FC05E38000BAD02 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0429D8071FB77E4800E0307D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0429D8161FB77E4800E0307D /* ViewController.m in Sources */,
+				0429D8131FB77E4800E0307D /* AppDelegate.m in Sources */,
+				0429D8101FB77E4800E0307D /* main.m in Sources */,
+				0429D8271FB77EA400E0307D /* DZ 22 - Obj_Skut_Touch.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0429D81C1FB77E4800E0307D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0429D81D1FB77E4800E0307D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0429D8201FB77E4800E0307D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0429D8211FB77E4800E0307D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0429D8231FB77E4800E0307D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "DZ 22 - Obj_Skut_Touch/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Zgera-Dima.DZ-22---Obj-Skut-Touch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0429D8241FB77E4800E0307D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "DZ 22 - Obj_Skut_Touch/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Zgera-Dima.DZ-22---Obj-Skut-Touch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0429D8061FB77E4800E0307D /* Build configuration list for PBXProject "DZ 22 - Obj_Skut_Touch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0429D8201FB77E4800E0307D /* Debug */,
+				0429D8211FB77E4800E0307D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0429D8221FB77E4800E0307D /* Build configuration list for PBXNativeTarget "DZ 22 - Obj_Skut_Touch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0429D8231FB77E4800E0307D /* Debug */,
+				0429D8241FB77E4800E0307D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0429D8031FB77E4800E0307D /* Project object */;
+}
